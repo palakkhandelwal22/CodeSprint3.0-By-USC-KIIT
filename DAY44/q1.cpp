@@ -33,7 +33,6 @@ int main()
         int b = getId(v);
         outdegree[a]++;
         indegree[b]++;
-
         undirected[a].push_back(b);
         undirected[b].push_back(a);
     }
